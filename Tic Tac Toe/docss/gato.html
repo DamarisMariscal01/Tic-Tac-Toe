@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- tr = agregarn renglones a la tabla
+td = datos dentro de los renglones -->
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="./funciones.js" type="text/javascript" charset="utf-8"></script>
+    <title>Document</title>
+  </head>
+
+
+  <body>
+  <h1>Tic Tac Toe</h1>
+  <button type="button" name="button">Reiniciar</button>
+
+
+  <div class="contenedor-principal">
+    <div class="contenedor-grid">
+      <div class="elemento-grid"></div>
+      <div class="elemento-grid verticales"></div>
+      <div class="elemento-grid"></div>
+      <div class="elemento-grid horizontales"></div>
+      <div class="elemento-grid verticales horizontales"></div>
+      <div class="elemento-grid horizontales"></div>
+      <div class="elemento-grid"></div>
+      <div class="elemento-grid verticales"></div>
+      <div class="elemento-grid"></div>
+    </div>
+  </div>
+
+    <div>
+      <p>FELICIDADES</p>
+    </div>
+    <div>
+      <p>Turno del jugador <span id="jugadorEnTurno"></span></p>
+    </div>
+
+    <button id="modoJuego">VS CPU</button>
+</body>
+</html>

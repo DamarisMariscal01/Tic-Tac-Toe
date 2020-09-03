@@ -1,0 +1,28 @@
+.contenedor-grid{
+  display: grid;
+  grid-template-columns: 150px , 150px , 150px;
+  grid-auto-rows: 100px , 100px , 100px;
+}
+
+.elemento-grid{
+  transform: scale(1.1);
+  border: black 5px;
+}
+
+.horizontales{
+  border-top: 2px;
+  border-bottom: 2px;
+}
+
+.horizontales{
+  border-top: 2px;
+  border-bottom: 2px;
+}
+
+.alive{
+  color: blue;
+}
+
+.contenedor-principal{
+  display: flex;
+}
