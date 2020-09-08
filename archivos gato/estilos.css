@@ -1,0 +1,39 @@
+.contenedor-grid{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+
+.horizontales{
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
+.verticales{
+  border-left: solid black 2px;
+  border-right: solid black ;
+}
+
+.alive{
+  color: blue;
+}
+
+.contenedor-principal{
+  display: flex;
+}
+
+.casilla-rosa{
+  background-color: #FFBBCF;
+  color: #E32059;
+  text-align: center;
+}
+
+.casilla-amarilla{
+  background-color: #FFFA9C;
+  color: #E7CC00;
+  text-align: center;
+}
+
+body{
+  background-color: #90B6EA;
+}
