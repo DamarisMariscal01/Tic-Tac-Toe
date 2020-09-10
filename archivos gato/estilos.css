@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
+  justify-content: space-evenly;
 }
 
 .horizontales{
@@ -22,16 +23,26 @@
   display: flex;
 }
 
+.elemento-grid:hover{
+  border: solid black;
+  padding: 2px;
+  width: auto;
+}
+
 .casilla-rosa{
   background-color: #FFBBCF;
   color: #E32059;
   text-align: center;
+  font-size: auto;
+  justify-content: space-evenly;
 }
 
 .casilla-amarilla{
   background-color: #FFFA9C;
   color: #E7CC00;
   text-align: center;
+  font-size: auto;
+  justify-content: space-evenly;
 }
 
 body{
