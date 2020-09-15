@@ -33,7 +33,15 @@ function estaOcupada(casilla){
 }
 
 function reiniciarJuego(){
-  (--! reiniciarJuego x 9--)
+  limpiarCasilla(1)
+  limpiarCasilla(2)
+  limpiarCasilla(3)
+  limpiarCasilla(4)
+  limpiarCasilla(5)
+  limpiarCasilla(6)
+  limpiarCasilla(7)
+  limpiarCasilla(8)
+  limpiarCasilla(9)
 }
 
 function limpiarCasilla(numero){
